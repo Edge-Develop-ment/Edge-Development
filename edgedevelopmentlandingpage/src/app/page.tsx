@@ -6,11 +6,9 @@ export default function Home() {
       <nav className='flex flex-row w-full'>
         <Image src="/edgedevelopmentlandingpage/public/LogoGrayOrange.png" alt="Logo" width={150} height={150}/>
         <ul className='flex flex-row w-full gap-4'>
-          <li><a>Something 0</a></li>
-          <li><a>Something 1</a></li>
-          <li><a>Something 2</a></li>
-          <li><a>Something 3</a></li>
-          <li><a>Something 4</a></li>
+          <li><a>Our Work</a></li>
+          <li><a>About Us</a></li>
+          <li><a>Contact</a></li>
         </ul>
       </nav>
     </main>
