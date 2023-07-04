@@ -1,5 +1,8 @@
 import Image from 'next/image';
 import Hero from './Hero';
+import About from './About';
+import Testimonials from './Testimonials';
+import Footer from './Footer';
 
 export default function Home() {
   return (
@@ -13,6 +16,9 @@ export default function Home() {
         </ul>
       </nav>
       <Hero />
+      <About />
+      <Testimonials />
+      <Footer />
     </main>
   )
 }
