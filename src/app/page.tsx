@@ -3,6 +3,7 @@ import Hero from './Hero';
 import About from './About';
 import Testimonials from './Testimonials';
 import Footer from './Footer';
+import Portfolio from './Portfolio';
 import logo from '../../public/LogoGrayOrange.png';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         </ul>
       </nav>
       <Hero />
+      <Portfolio />
       <About />
       <Testimonials />
       <Footer />
