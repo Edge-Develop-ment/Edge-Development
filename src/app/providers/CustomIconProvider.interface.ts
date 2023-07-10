@@ -1,18 +1,18 @@
 import { FC } from 'react';
-import { ThemeColor } from '../enum/themeColor.enum';
 
 export interface CustomIconProviderProps {
   className?: string;
   iconClassName?: string;
   icon: string | FC<IconComponent>;
+  width?: number;
+  height?: number;
   customSize?: number;
-  color?: ThemeColor | string;
+  color?: string;
   name?: string;
 }
 
 export interface IconComponent {
   width: number;
   height: number;
-  color: string;
   className?: string;
 }

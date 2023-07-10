@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "svgr": "npx @svgr/cli ./src/app/assets/icons -d src/app/components/common/icons --typescript --icon --svg-props \\\"width=24,height=24\\\""
   },
   "dependencies": {
     "@types/node": "20.3.3",
@@ -19,7 +20,12 @@
     "postcss": "8.4.24",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "tailwind-merge": "^1.13.2",
     "tailwindcss": "3.3.2",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@svgr/cli": "^8.0.1",
+    "@svgr/webpack": "^8.0.1"
   }
 }
