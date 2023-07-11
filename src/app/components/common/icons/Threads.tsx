@@ -6,13 +6,6 @@ const SvgThreads = (props: SVGProps<SVGSVGElement>) => (
     xmlSpace="preserve"
     width="24"
     height="24"
-    style={{
-      shapeRendering: "geometricPrecision",
-      textRendering: "geometricPrecision",
-      imageRendering: "optimizeQuality",
-      fillRule: "evenodd",
-      clipRule: "evenodd",
-    }}
     viewBox="0 0 1349.93 1349.93"
     {...props}
   >
